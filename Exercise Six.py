@@ -27,10 +27,8 @@ print(result)
 
 #QUESTION 6-3
 def is_palindrome(s):
-    cleaned_string = ''.join(char.lower() for char in s if char.isalnum())
-    return cleaned_string == cleaned_string[::-1]
-result = is_palindrome("ila" "t" "ali")
-print(result)
+    return  s==s[::-1]
+print(is_palindrome("ilatali"))    
 
 #QUESTION 6-4
 def is_power(a, b):
