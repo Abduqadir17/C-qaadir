@@ -1,5 +1,5 @@
 from turtle import *
-speed(8)
+speed(1)
 hideturtle()
 width(4)
 def rel_pos(x, y):
@@ -9,7 +9,7 @@ def rel_pos(x, y):
 def drawRoof():
   width(8)
   begin_fill()
-  fillcolor("green")
+  fillcolor("orange")
   seth(180)
   forward(200)
   seth(-120)
@@ -41,7 +41,7 @@ def drawDoor():
   color("#004080")
   forward(80)
   begin_fill()
-  fillcolor("red")
+  fillcolor("green")
   seth(90)
   forward(80)
   seth(180)
