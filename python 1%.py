@@ -181,6 +181,47 @@ while True:
 
 #algorithms are a set of steps to solve a problem.  
 
+#a string is a sequence
+fruit="carrot"  
+letter=fruit[4]
+print(letter)
+
+
+#len is a built-in function that returns the number of characters in a string.
+print(len(fruit))
+
+#traversal with a for loop
+index=0
+while index<len(fruit):
+  letter=fruit[index]
+  print(letter)
+  index=index+1
+
+#string slices
+letter1=fruit[0:3]  
+print(letter1)
+letter2=fruit[4:0:-1]
+print(letter2)
+
+#strings are immutable; string does not support character reassignment
+"""
+greeting = "hello world"
+greeting[0]="j"
+print(greeting)
+"""
+
+#searching in string
+xrfha_labalaabma="mnlgrdb"
+def malabalaabmaa(xrfha_labalaabma , xaraf):
+  index =0
+  while index<len(xrfha_labalaabma):
+    if xrfha_labalaabma[index]== xaraf:
+      return xaraf
+    index +=1
+  else:
+    return -1
+print(malabalaabmaa(xrfha_labalaabma, "f"))
+
 #stack diagram
 #refactoring
 #square root
