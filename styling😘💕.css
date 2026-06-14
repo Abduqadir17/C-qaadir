@@ -1,0 +1,43 @@
+article img{
+    width: 200px;
+    height: 250px;
+    float: left;
+    margin-right: 30px;
+}
+body{
+    width: 600px;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background-color: rgb(207, 11, 86);
+}
+h2{
+    font-size: 30px;
+    line-height: 36px;
+}
+p{
+    font-size: 20px;
+    color: beige;
+}
+.preview{
+    float: right;
+    width: 370px;
+    
+}
+a{
+    color: #30de04;
+}
+.meta a{
+    font-style: italic;
+    font-size: 22px;
+}
+.meta li{
+    display: inline;
+}
+.meta li:after{
+    content: '\\';
+    padding: 0 2px;
+    color: #999; 
+}
+.meta li:last-child:after{
+    content: none;
+}
